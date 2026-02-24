@@ -1,0 +1,202 @@
+1. Differences
+(a) for loop vs while loop vs do-while loop
+Feature	            for loop	                    while loop	                                do-while loop
+Condition           check	                        Before loop starts	Before loop starts	    After loop executes
+Minimum execution	0 times	                        0 times	                                    At least 1 time
+Best used when	    Number of iterations is known	Number of iterations unknown	            Loop must run at least once
+
+Examples:
+
+for loop
+
+for(int i = 1; i <= 5; i++) {
+    print(i);
+}
+
+
+while loop
+
+int i = 1;
+while(i <= 5) {
+    print(i);
+    i++;
+}
+
+
+do-while loop
+
+int i = 1;
+do {
+    print(i);
+    i++;
+} while(i <= 5);
+
+(b) if, if-else, else-if, nested if-else
+1. if
+
+Executes when condition is true.
+
+if(a > b) {
+    print("A is greater");
+}
+
+2. if-else
+
+Two choices.
+
+if(a > b) {
+    print("A is greater");
+} else {
+    print("B is greater");
+}
+
+3. else-if ladder
+
+Multiple conditions.
+
+if(marks >= 90)
+    grade = 'A';
+else if(marks >= 75)
+    grade = 'B';
+else
+    grade = 'C';
+
+4. Nested if-else
+
+if inside another if.
+
+if(a > b) {
+    if(a > c)
+        print("A is largest");
+}
+
+(c) Iteration vs Recursion
+Iteration	        Recursion
+Uses loops	        Function calls itself
+Faster	            Slower (function overhead)
+Uses less memory    Uses more memory (stack)
+Easier to debug	    Harder to debug
+
+Iteration example
+
+for(int i = 1; i <= 5; i++)
+    print(i);
+
+
+Recursion example
+
+void print(int n) {
+    if(n == 0) return;
+    print(n - 1);
+    print(n);
+}
+
+2. Using Functions Efficiently
+
+Why functions?
+
+Code reuse
+
+Better readability
+
+Easy debugging
+
+Modular programming
+
+Good practices
+
+One function = one task
+
+Use meaningful names
+
+Avoid global variables
+
+Pass parameters instead of hardcoding values
+
+Example
+
+int add(int a, int b) {
+    return a + b;
+}
+
+int result = add(5, 3);
+
+3. OOPS – 4 Pillars
+1. Encapsulation
+
+Wrapping data and methods together.
+
+class Student {
+    private int marks;
+    public void setMarks(int m) {
+        marks = m;
+    }
+}
+
+2. Abstraction
+
+Showing only essential details.
+
+interface Vehicle {
+    void start();
+}
+
+3. Inheritance
+
+Child class acquires parent class properties.
+
+class Car extends Vehicle {
+}
+
+4. Polymorphism
+
+One name, many forms.
+
+Method Overloading
+
+int add(int a, int b);
+double add(double a, double b);
+
+
+Method Overriding
+
+class Animal {
+    void sound() {}
+}
+class Dog extends Animal {
+    void sound() { print("Bark"); }
+}
+
+4. ADT (Abstract Data Type)
+Definition
+
+ADT defines what operations are performed, not how they are implemented.
+
+Example: Stack ADT
+
+Operations
+
+push()
+
+pop()
+
+peek()
+
+isEmpty()
+
+Implementation
+
+Can be done using array or linked list
+
+User does not care how, only what operations are available.
+
+Other ADTs
+
+    -Queue
+
+    -List
+
+    -Set
+
+    -Map
+    

@@ -1,0 +1,2 @@
+1. what is difference between multi linked list and single linked list?
+2. make a single link list in python.

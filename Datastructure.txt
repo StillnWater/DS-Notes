@@ -1,0 +1,123 @@
+TYPES OF DATA STRUCTURES:
+
+
+A data structure is a way of organizing and storing data so that it can be accessed and modified efficiently.
+
+
+1. PRIMITIVE DATA STRUCTURES
+
+These store single values and are basic data types.
+
+Examples:
+- Integer (int)
+- Float (float)
+- Character (char)
+- Boolean (bool)
+- Double (double)
+
+
+2. NON-PRIMITIVE DATA STRUCTURES
+
+These store multiple values and are derived from primitive data types.
+
+A. LINEAR DATA STRUCTURES
+
+Data elements are stored in a sequential manner.
+
+1. Array
+- Fixed size
+- Stores same type of elements
+- Indexed access
+
+2. Linked List
+- Dynamic size
+- Nodes contain data and address
+Types:
+- Singly Linked List
+- Doubly Linked List
+- Circular Linked List
+
+3. Stack
+- Follows LIFO (Last In First Out)
+Operations:
+- Push
+- Pop
+Examples:
+- Function calls
+- Undo operations
+
+4. Queue
+- Follows FIFO (First In First Out)
+Operations:
+- Enqueue
+- Dequeue
+Types:
+- Simple Queue
+- Circular Queue
+- Priority Queue
+- Deque
+
+
+B. NON-LINEAR DATA STRUCTURES
+
+Data elements are not stored sequentially.
+
+1. Tree
+- Hierarchical structure
+- Has root, parent, and child nodes
+Types:
+- Binary Tree
+- Binary Search Tree
+- AVL Tree
+- Heap
+- B-Tree
+Example:
+- File system
+
+2. Graph
+- Collection of nodes connected by edges
+Types:
+- Directed Graph
+- Undirected Graph
+- Weighted Graph
+Examples:
+- Social networks
+- Road maps
+
+
+3. STATIC DATA STRUCTURES
+
+- Fixed size
+- Memory allocated at compile time
+Example:
+- Array
+
+
+4. DYNAMIC DATA STRUCTURES
+
+- Size can change during execution
+- Memory allocated at runtime
+Examples:
+- Linked List
+- Stack
+- Queue
+
+
+5. ABSTRACT DATA TYPES (ADT)
+
+ADT defines what operations are performed, not how they are implemented.
+
+Examples:
+- Stack
+- Queue
+- List
+- Set
+- Map
+
+
+CLASSIFICATION SUMMARY
+
+Data Structures are classified as:
+1. Primitive and Non-Primitive
+2. Linear and Non-Linear
+3. Static and Dynamic

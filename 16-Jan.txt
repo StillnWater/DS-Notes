@@ -1,0 +1,3 @@
+class= used to create a blueprint (a type) or object
+object=addition to class with a new feature or attribute
+__init__=constructor, runs automatically when an object is created
