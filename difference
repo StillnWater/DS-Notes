@@ -1,0 +1,13 @@
+Bubble sort--Compare adjacent pairs, swap if out of
+order. Repeat until no swaps needed.
+Best: O(n)
+Avg/Worst: O(n²)    
+
+Insertion sort--Pick next element, shift larger elements
+right, insert it in the correct position.
+Best: O(n)
+Avg/Worst: O(n²)
+
+Selection sort--Find the minimum in the unsorted part,
+swap it to the sorted boundary.
+Best/Avg/Worst:always O(n²)

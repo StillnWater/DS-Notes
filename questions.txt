@@ -1,2 +1,8 @@
 1. what is difference between multi linked list and single linked list?
 2. make a single link list in python.
+
+16-3-26
+1. difference between each and every type of sorting based on application, based on situation and condition
+
+
+

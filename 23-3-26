@@ -1,0 +1,14 @@
+bubble sort :
+    -comparision 
+    -loop
+    -swapping
+sorting :
+time complexity : O(n^2)
+space complexity : O(1) {in place sorting, outplace sorting}
+stable and unstable sorting :
+    stable : if two elements are equal then their order is preserved
+    unstable : if two elements are equal then their order is not preserved
+
+creating a table for difference in bubble sort selection and insertion sort:
+| Sorting Algorithm | Time Complexity | Space Complexity | Stability | Description |
+|-------------------|-----------------|------------------|-----------|-------------|
