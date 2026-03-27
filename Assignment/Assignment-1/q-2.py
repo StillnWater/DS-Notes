@@ -1,0 +1,16 @@
+# Tower of Hanoi
+
+def tower_of_hanoi(n, source, auxiliary, target):
+    
+    if n == 1:
+        print(f"Move disk 1 from {source} to {target}")
+        return
+
+    tower_of_hanoi(n - 1, source, target, auxiliary)
+    print(f"Move disk {n} from {source} to {target}")
+    tower_of_hanoi(n - 1, auxiliary, source, target)
+
+
+# Trace for N = 3
+print("Tower of Hanoi for N = 3")
+tower_of_hanoi(3, 'A', 'B', 'C')
